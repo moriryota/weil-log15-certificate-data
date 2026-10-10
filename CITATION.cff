@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the paper and this dataset."
+title: "Weil positivity on the window of width log 15: certificate data"
+authors:
+  - family-names: Mori
+    given-names: Ryota
+license: CC-BY-4.0
+version: "1.0.0"
+repository-code: "https://github.com/moriryota/weil-log15-certificate-data"
+keywords:
+  - Weil explicit formula
+  - Weil positivity
+  - Riemann zeta function
+  - interval arithmetic
+  - ball arithmetic
+  - computer-assisted proof
+  - certificate

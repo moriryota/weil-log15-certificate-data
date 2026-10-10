@@ -1,0 +1,6 @@
+weil-log15-certificate-data
+Copyright 2026 Ryota Mori
+
+The data files (notes/**/*.json.gz and their parts) and README.md are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0). The script restore.py is licensed under the Apache License,
+Version 2.0 (see LICENSE).
