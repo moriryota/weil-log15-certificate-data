@@ -1,7 +1,7 @@
 # Weil positivity on the window of width log 15 — certificate data
 
 Data for the interval-arithmetic certificate of: R. Mori, *Weil positivity on the window of width log 15*, Zenodo, 2026,
-doi:10.5281/zenodo.XXXXXXXX (paper VIII). The code (checker, proposer, generator, independent check) is in folder
+doi:10.5281/zenodo.23281236 (paper VIII). The code (checker, proposer, generator, independent check) is in folder
 `certificate-VIII/` of https://github.com/moriryota/prolate-weil-bounds (release v1.6.0), doi:10.5281/zenodo.23092422.
 
 Theorem O: for every complex C² function f supported in [−½ log 15, ½ log 15], Weil's quadratic form satisfies
