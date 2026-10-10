@@ -10,7 +10,7 @@ Q(f) ≥ 2^−2904 ‖f‖². This is an external Arb/FLINT certificate together
 ## Contents (about 1.8 GB)
 | path | content |
 |---|---|
-| `notes/0803_gpt_A5_mu15_certificate/packet/p{0,1}_*.json.gz` | the certificate: 18 dyadic rational matrices (832 × 832, denominator 2^512) per parity: A, B, J, X, W0, Y and the congruence transforms ZC, ZW, ZT |
+| `notes/0803_gpt_A5_mu15_certificate/packet/p{0,1}_*.json.gz` | the certificate: 18 dyadic rational matrices in total, nine per parity (832 × 832, denominator 2^512): A, B, J, X, W0, Y and the congruence transforms ZC, ZW, ZT |
 | `notes/0792_claude_lowmem_generator/runs/m15n1664p3328q224_p{0,1}_{A,B,J}.json.gz.partNN` | the six source matrices (Arb balls at 3328 bits), split into 48 MiB parts because GitHub limits files to 100 MB |
 | `restore.py` | copies the packet, joins the parts, and checks every file against the SHA-256 sums shipped with the code |
 | `SHA256SUMS` | SHA-256 of every file in this repository (parts included) |
@@ -22,5 +22,8 @@ The paths are those of the author's working tree, so that the hashes pinned insi
     python restore.py /path/to/prolate-weil-bounds/certificate-VIII
 
 then follow `certificate-VIII/README.md` (checker: about 200 s and 3.2 GB).
+
+This work used Anthropic Claude and OpenAI GPT to derive bounds, implement the computations and review the results,
+under the author's direction. The author is responsible for the content.
 
 Licence: CC BY 4.0 (data), Apache-2.0 (`restore.py`).
